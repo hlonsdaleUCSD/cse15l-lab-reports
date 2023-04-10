@@ -19,4 +19,6 @@ When I tried that sequence on my macbook, the terminal replied with this:
 
 I was stuck here for a while, attempting to connect on my macbook, before I decided to try logging in on one of the lab PCs instead. I performed the same sequence of `ssh` and entering my password, and it worked this time. So if you're seeing a similar issue to the one I had, try using a different computer and check if you can log in there.
 
+![Image](LoggedIn.png)
 
+This is the result that the terminal printed after my successful login to the _ieng6_ server on the lab computer.
