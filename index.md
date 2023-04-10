@@ -10,4 +10,5 @@ To start, you should download __VS Code__ onto your computer from online. I alre
 Now that that's out of the way, it's time to begin remotely connecting to `ieng6`. Use the command `$ ssh cs15lsp23zz@ieng6.ucsd.edu` and replace the "zz" with the corresponding characters in your CSE15L ID. After that, the terminal should return a prompt like this:
 
 `(cs15lsp23zz@ieng6.ucsd.edu) Password: `
+
 When you type your password in after this prompt, the password may not appear on the screen - but don't worry, the computer is registering your inputs, it just doesn't show it for privacy reasons (in case somebody was peeking over your shoulder)
