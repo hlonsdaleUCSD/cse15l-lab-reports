@@ -17,6 +17,6 @@ When I tried that sequence on my macbook, the terminal replied with this:
 
 ![Image](ConnectionClosed.png)
 
-I was stuck here for a while, attempting to connect on my macbook, before I decided to try logging in on one of the lab PCs. I performed the same sequence of `ssh` and entering my password, and it worked this time. So if you're seeing a similar issue to the one I had, try using a different computer and check if you can log in there.
+I was stuck here for a while, attempting to connect on my macbook, before I decided to try logging in on one of the lab PCs instead. I performed the same sequence of `ssh` and entering my password, and it worked this time. So if you're seeing a similar issue to the one I had, try using a different computer and check if you can log in there.
 
 
