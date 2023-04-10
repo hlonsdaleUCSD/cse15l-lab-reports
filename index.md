@@ -22,3 +22,7 @@ I was stuck here for a while, attempting to connect on my macbook, before I deci
 ![Image](LoggedIn.png)
 
 This is the result that the terminal printed after my successful login to the __ieng6__ server on the lab computer.
+
+Now you can try running some commands on the remote computer. Play around and see what you can do! I tried using `ls` to list the files and directories that were available to me. 
+
+![Image](tryCommands.png)
