@@ -11,7 +11,7 @@ Now that that's out of the way, it's time to begin remotely connecting to `ieng6
 
 `(cs15lsp23zz@ieng6.ucsd.edu) Password: `
 
-When you type your password in after this prompt, the password may not appear on the screen - but don't worry, the computer is registering your inputs, it just doesn't show it for privacy reasons (in case somebody was peeking over your shoulder). Type in your newly reset cse15L account password and press enter.
+When you type your password in after this prompt, the password may not appear on the screen - but __don't worry, the computer is registering your inputs__, it just doesn't show it for privacy reasons (in case somebody was peeking over your shoulder). Type in your newly reset cse15L account password and press enter.
 
 When I tried that sequence on my macbook, the terminal replied with this: 
 
@@ -21,4 +21,4 @@ I was stuck here for a while, attempting to connect on my macbook, before I deci
 
 ![Image](LoggedIn.png)
 
-This is the result that the terminal printed after my successful login to the _ieng6_ server on the lab computer.
+This is the result that the terminal printed after my successful login to the __ieng6__ server on the lab computer.
