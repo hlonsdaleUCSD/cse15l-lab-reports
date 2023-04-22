@@ -8,6 +8,7 @@ To start, you should download __VS Code__ onto your computer from online. I alre
 
 ![Image](VSCode2.png)
 
+
 ## Connecting to Ieng6
 Now that that's out of the way, it's time to begin remotely connecting to `ieng6`. Use the command `$ ssh cs15lsp23zz@ieng6.ucsd.edu` and replace the "zz" with the corresponding characters in your CSE15L ID. After that, the terminal should return a prompt like this:
 
@@ -24,6 +25,7 @@ I was stuck here for a while, attempting to connect on my macbook, before I deci
 ![Image](LoggedIn.png)
 
 This is the result that the terminal printed after my successful login to the __ieng6__ server on the lab computer.
+
 
 ## Running Commands Remotely
 
