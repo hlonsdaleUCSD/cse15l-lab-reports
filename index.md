@@ -26,7 +26,7 @@ I was stuck here for a while, attempting to connect on my macbook, before I deci
 
 This is the result that the terminal printed after my successful login to the __ieng6__ server on the lab computer.
 
-
+<br/><br/>
 ## Running Commands Remotely
 
 Now you can try running some commands on the remote computer. Play around and see what you can do! I tried using `ls` to list the files and directories that were available to me. I saw that there was a __directory__ named `perl5`. I used `cd` to change directories to perl5 but using `ls` now does not show any new files or directories inside of perl5.
