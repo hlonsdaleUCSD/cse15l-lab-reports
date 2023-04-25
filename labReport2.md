@@ -37,3 +37,28 @@ For the **second** screenshot:
   
 ## Part 2: Bug Hunting
 
+The bug that I'm choosing to report on is the bug in `averageWithoutLowest`.
+
+Here's a failure-inducing jUnit test for this method.
+```
+  @Test
+  public void testAverageWithoutLowest(){
+    double[] input = new double[]{1.2, 1.2, 1.2, 1.2, 1.2};
+    double output = ArrayExamples.averageWithoutLowest(input);
+    assertEquals(1.2,output,0.0);
+  }
+```
+
+- The expected output of this code is 1.2, because even if you drop the single lowest value (one of the 1.2s), the other four 1.2s will still cause the average to be 1.2.
+- However, the output for that jUnit test is the following:
+```
+1) testAverageWithoutLowest(ArrayTests)
+java.lang.AssertionError: expected:<1.2> but was:<0.0>
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.failNotEquals(Assert.java:835)
+	at org.junit.Assert.assertEquals(Assert.java:555)
+	at org.junit.Assert.assertEquals(Assert.java:685)
+	at ArrayTests.testAverageWithoutLowest(ArrayTests.java:33)
+```
+
+As you can see, the returned value was **0.0**, not what we expected!
