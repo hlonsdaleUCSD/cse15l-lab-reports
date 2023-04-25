@@ -102,3 +102,7 @@ A closer inspection of the source code for `ArrayExamples.averageWithoutLowest` 
 ```
 
 Now we're checking if the lowest has already been removed first. Then, if it hasn't, we check if the current number is the lowest. If it is, we skip it and mark removed as true. If it's not the lowest, then we're good to add it and cautiously continue.
+
+## Part 3: What have I learned?
+
+Something interesting that I learned from lab #2 was how to localhost and run my java program on a server. I never knew that I could do this before, but it seems like a useful tool with a number of applications. I thought it was really interesting learning about how we can use the url to manipulate data stored by the program.
