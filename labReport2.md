@@ -34,3 +34,6 @@ For the **second** screenshot:
  - How do the values of any relevant fields of the class change from this specific request? If no values got changed, explain why
 
   The value of `String str` was changed by this specific request because "andThisToo\n" was concatenated to `str`. Before this was run, `str` was `add this\n`.
+  
+## Part 2: Bug Hunting
+
