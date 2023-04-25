@@ -3,5 +3,8 @@
 
 ## Part 1: StringServer and localhost
 ![Image](StringServerCode.png)
-This was the code for my StringServer
+# This was the code for my StringServer
 
+![Image](add%20this.png)
+<br/>
+![Image](andThisToo.png)
