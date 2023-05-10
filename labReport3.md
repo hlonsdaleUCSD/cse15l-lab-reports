@@ -4,7 +4,7 @@
 ## Researching Commands
 The command I'm choosing to research is `grep`. Let's look at some interesting command-line options for this helpful command.
 
-## 1. -i: Case insensitivity
+## 1. -i: Case Insensitivity
 ```
 bash-3.2$ grep "eukaryotic cells" biomed/1471-2121-*-*.txt
 biomed/1471-2121-2-6.txt:          activity in eukaryotic cells, and the observed effects
@@ -110,7 +110,7 @@ bash-3.2$ grep -l "Bin Laden" 911report/*.txt
 ```
 This is another example of using -l to search for which files in `911report` contain the phrase "Bin Laden". Instead of needing to see every line on which the name pops up, we can just search for which files have it.
 
-## 4. `-l`: File Names Only
+## 4. -n: Line Numbers
 The command line option `-n` causes `grep` to tell the user the line number of each match found. 
 
 ```
