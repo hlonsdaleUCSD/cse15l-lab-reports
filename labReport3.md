@@ -56,6 +56,8 @@ bash-3.2$ grep -i "research" government/Media/*.txt | wc
 ```
 
 As you can see, similarly to the first example in biomed, `-i` allowed me to find more matching results for this grep command in `government/Media` because it removed the requirement of case sensitivity. I piped the results of these grep commands into wc because it is inconvenient to count the number of lines by hand, and this shows that using -i finds us an extra 2 outputs compared to not using it.
+<br/><br/>
+I found the command line option `-i` by using `man grep` in the terminal.
 
 ## 2. -c: Count Matches
 The -c command has the terminal print the number of occurences in each file, without printing every line in which the match occurs.
@@ -90,6 +92,8 @@ biomed/1471-2105-3-4.txt:578
 biomed/1471-2105-3-6.txt:799
 ```
 This is another example of using -c to find the number of occurences in each matching file of the space character " ". This is an interesting way to use grep to quickly check the number of spaces in each `.txt` file.
+<br/><br/>
+I found `-c` on [this website](https://www.geeksforgeeks.org/grep-command-in-unixlinux/)
 
 ## 3. `-l`: File Names Only
 The command line option `-l` causes `grep` to return only the file names that have matching occurences, not the lines on which they occur. 
@@ -109,6 +113,8 @@ bash-3.2$ grep -l "Bin Laden" 911report/*.txt
 911report/chapter-6.txt
 ```
 This is another example of using -l to search for which files in `911report` contain the phrase "Bin Laden". Instead of needing to see every line on which the name pops up, we can just search for which files have it.
+<br/><br/>
+I found `-l` on [this website](https://www.geeksforgeeks.org/grep-command-in-unixlinux/)
 
 ## 4. -n: Line Numbers
 The command line option `-n` causes `grep` to tell the user the line number of each match found. 
@@ -126,3 +132,5 @@ government/Media/A_helping_hand.txt:56:"I realized with a shock that the work ha
 government/Media/Towson_Attorney.txt:66:and they are injured and are in the shock trauma unit in Baltimore
 ```
 Here's another example of using `grep -n` to find that these examples of the word "shock" happen on line 56 of `A_helping_hand.txt` and line 66 of `Towson_Attorney.txt`. Again, it can be very helpful to know this information while using `grep`. 
+<br/><br/>
+I found `-n` on [this website](https://www.geeksforgeeks.org/grep-command-in-unixlinux/)
