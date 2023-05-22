@@ -10,7 +10,7 @@ These are the steps I took to fulfill steps 4-9 from the [lab writeup](https://u
 <br/><br/>
 **Keys pressed**: ssh cs15lsp23gi `<shift> + 2` ieng6.ucsd.edu `<Enter>` <br/>
 **Summary**: In this step I used the `ssh` command in bash to securely connect to the ieng6 server using my account. Since I set up the SSH key, I no longer need to enter a password while using this computer to do this. Very convenient!
-<br/><br/><br/><br/><br/><br/><br/><br/>
+<br/><br/>
 ### 2. Cloning my fork of the repository from my Github account
 ![Image](Screen%20Shot%202023-05-22%20at%202.35.28%20PM.png)
 <br/><br/>
@@ -22,7 +22,7 @@ These are the steps I took to fulfill steps 4-9 from the [lab writeup](https://u
 <br/><br/>
 **Keys pressed**: cd lab7 `<enter>` bash test.sh `<Enter>` <br/> 
 **Summary**: In this step, I ran the command `cd` to change directory into the lab7 directory that was created through cloning. Then I run the bash script test.sh in the repository.
-<br/><br/><br/><br/><br/><br/><br/><br/>
+<br/><br/>
 ### 4. Editing the code file to fix the failing test
 ![Image](Screen%20Shot%202023-05-22%20at%203.02.06%20PM.png)
 ![Image](Screen%20Shot%202023-05-22%20at%203.04.05%20PM.png)
@@ -35,7 +35,7 @@ These are the steps I took to fulfill steps 4-9 from the [lab writeup](https://u
 <br/><br/>
 **Keys pressed**: bash test.sh `<enter>`
 **Summary**: Here I just ran the tests again, the same way I did before, by using the bash script test.sh which was provided in the repository. As you can see in the screenshots, the jUnit tests no longer fail on the updated ListExamples.
-<br/><br/><br/><br/><br/><br/><br/><br/>
+<br/><br/>
 ### 6. Commiting and pushing the resulting change to my Github account 
 ![Image](Screen%20Shot%202023-05-22%20at%203.16.43%20PM.png)
 <br/><br/>
