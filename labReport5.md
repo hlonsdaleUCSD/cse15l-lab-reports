@@ -1,7 +1,7 @@
 # CSE15L Lab Report 5
 ## Harry Lonsdale
 
-## Edstem Bug Report
+## Part 1: Debugging Scenario
 
 **What environment are you using (computer, operating system, web browser, terminal/editor, and so on)?**
 
@@ -122,3 +122,7 @@ echo "All done! output : "
 cat grepResults.txt
 ```
 Then run it again
+
+## Part 2: Reflection
+
+Something very interesting that I learned in the second half of this quarter was how to use vim. Vim is a very useful tool to edit files from the command line efficiently. I think I'll still do most of my coding in VS Code, but I definitely think that my vim skills will help me out in future, because sometimes it's convenient to edit things straight from the command line instead of opening up some program to edit it.
